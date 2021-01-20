@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarteto de Nos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.jpg" alt="Logo Banda"></a>
+        <h1>CUARTETO DE NOS</h1>
+        <a href="https://open.spotify.com/artist/13JJKrUewC1CJYmIDXQNoH"><img src="img/spotify.png" alt="Spotify"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="fondo"> HOLA </a></li><!-- 
+            --><li><a href="conocenos.html"> CONOCENOS </a></li><!-- 
+            --><li> <a href=""> TIENDA </a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <!-- INICIO -->
+        <section>
+            <div class="inicio">
+                <div class="centrado">
+                    <div>
+                        <h1>HOLA!</h1>
+                        <article>
+                            <p>Somos el Cuarteto de Nos, este es nuestro sitio donde podrás enterarte de todas las
+                                novedades,
+                                las fechas, los nuevos lanzamientos, seguirnos en nuestras redes y más.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- NOTICIAS -->
+        <section class="centrado">
+            <div>
+                <h2>NOTICIAS</h2>
+                <article>
+                    <figure><img src="img/noticia1.png" alt="Noticia 1"></figure>
+                    <div>
+                        <h3>Premios Graffiti a la música uruguaya</h3>
+                        <p>
+                            El Cuarteto de Nos, Nicolás Molina, Buitres, No Te Va Gustar y Hablan por la
+                            Espalda van por el premio a mejor disco del año
+                        </p>
+                        <p><a
+                                href="https://www.tvshow.com.uy/musica/premios-graffiti-musica-uruguaya-cuarteto-lidera-nominaciones.html">
+                                Ver más</a></p>
+                    </div>
+                </article><!-- 
+            --><article>
+                    <figure><img src="img/noticia2.png" alt="Noticia 2"></figure>
+                    <div>
+                        <h3>En cuarentena, El Cuarteto de Nos hace cine con sus fans: mirá "Anónimo" y "Llegó papá"</h3>
+                        <p>
+                            A través de las redes, El Cuarteto de Nos convocó a sus seguidores a proponer
+                            ideas para rodar cortometrajes, inspiradas en sus éxitos recientes
+                        </p>
+                        <p><a
+                                href="https://www.tvshow.com.uy/musica/cuarentena-cuarteto-cine-fans-mira-anonimo-llego-papa.html">
+                                Ver más</a></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- TABLA Y FORMULARIO -->
+        <section class="centrado agenda">
+            <div>
+                <h2>AGENDA</h2>
+                <div>
+                    <article>
+                        <table>
+                            <caption>Eventos</caption>
+                            <thead>
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Hora</th>
+                                    <th>Lugar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>22/03/2021</td>
+                                    <td>19:00 hs.</td>
+                                    <td>Antel Arena</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2021</td>
+                                    <td>20:00 hs.</td>
+                                    <td>Velodromo</td>
+                                </tr>
+                                <tr>
+                                    <td>22/03/2021</td>
+                                    <td>19:30 hs.</td>
+                                    <td>Estadio Centenario</td>
+                                </tr>
+                                <tr>
+                                    <td>13/04/2021</td>
+                                    <td>12:00 hs.</td>
+                                    <td>Teatro de Verano</td>
+                                </tr>
+                                <tr>
+                                    <td>05/05/2021</td>
+                                    <td>14:00 hs.</td>
+                                    <td>Gran Rex</td>
+                                </tr>
+                                <tr>
+                                    <td>19/05/2021</td>
+                                    <td>08:30 hs.</td>
+                                    <td>Luna Park</td>
+                                </tr>
+                                <tr>
+                                    <td>12/06/2021</td>
+                                    <td>22:30 hs.</td>
+                                    <td>Conrad</td>
+                                </tr>
+                                <tr>
+                                    <td>30/07/2021</td>
+                                    <td>19:00 hs.</td>
+                                    <td>Radisson</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <h3>Comprar tickets</h3>
+                        <form action="#" method="post" enctype="multipart/form-data" autocomplete="off">
+                            <div>
+                                <div>
+                                    <label for="nombre">Nombre y apellido (*)</label>
+                                    <input type="text" id="nombre" name="nom" required placeholder="*">
+                                </div>
+                                <div>
+                                    <label for="cantidad">Cantidad (*)</label>
+                                    <input type="text" id="cantidad" name="cant" required placeholder="*">
+                                </div>
+                            </div>
+
+                            <label for="event">Evento (*)</label>
+                            <select name="event" id="event" required>
+                                <option value="1">Antel Arena</option>
+                                <option value="2">Velodromo</option>
+                                <option value="3">Estadio Centenario</option>
+                                <option value="4">Teatro de Verano</option>
+                                <option value="5">Gran Rex</option>
+                                <option value="6">Luna Park</option>
+                                <option value="7">Conrad</option>
+                                <option value="8">Radisson</option>
+                            </select>
+                            <fieldset>
+                                <legend>Forma de pago (*)</legend>
+                                <input type="radio" id="credito" checked name="pago" value="1">
+                                <label for="credito">Credito</label>
+                                <input type="radio" id="debito" name="pago" value="2">
+                                <label for="debito">Debito</label>
+                            </fieldset>
+                            <input type="submit" value="Comprar">
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>Seguinos!</li>
+                <li><a href="https://www.facebook.com/cuartetodenos" target="_blank"><img src="img/facebook.png"
+                            alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com/cuartetodenosok/?hl=es-la" target="_blank"><img
+                            src="img/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://twitter.com/cuartetodenos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank"><img src="img/twitter.png" alt="instagram"></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
